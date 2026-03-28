@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Meteo Crew</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>🌌 METEO CREW</h1>
+<p class="creator">Créé par PRINCE⊙_⊙</p>
+
+<div class="container">
+
+<div class="auth">
+<h2>Connexion / Inscription</h2>
+
+<input id="username" placeholder="Nom utilisateur">
+<input id="password" type="password" placeholder="Mot de passe">
+
+<button onclick="register()">Créer compte</button>
+<button onclick="login()">Se connecter</button>
+
+<p id="authMsg"></p>
+</div>
+
+<div class="weather hidden" id="weatherBox">
+<h2>Météo</h2>
+
+<input id="city" placeholder="Ville (ex: Conakry)">
+<button onclick="getWeather()">Rechercher</button>
+
+<div id="result"></div>
+</div>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
