@@ -1,0 +1,43 @@
+body {
+  background: black;
+  color: cyan;
+  font-family: Arial;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  text-shadow: 0 0 20px cyan;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 40px;
+}
+
+input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  background: black;
+  border: 1px solid cyan;
+  color: white;
+}
+
+button {
+  background: cyan;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+#result {
+  margin-top: 20px;
+}
